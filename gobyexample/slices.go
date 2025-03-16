@@ -5,7 +5,7 @@ import (
 	"slices"
 )
 
-func main() {
+func slices_main() {
 	var s []string
 	fmt.Println("un-init:", s, s == nil, len(s) == 0)
 
