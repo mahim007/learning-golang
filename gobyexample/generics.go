@@ -40,7 +40,7 @@ func (lst *List[T]) AllElements() []T {
 	return elements
 }
 
-func main() {
+func generics_main() {
 	var s = []string{"foo", "bar", "zoo"}
 	fmt.Println("index of zoo: ", SlicesIndex(s, "zoo"))
 
