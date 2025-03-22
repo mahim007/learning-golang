@@ -22,7 +22,7 @@ func f(arg int) (int, error) {
 	return arg + 3, nil
 }
 
-func main() {
+func custom_errors_main() {
 	_, err := f(42)
 	var ae *argError
 
