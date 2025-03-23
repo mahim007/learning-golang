@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func range_over_channels_main() {
 	queue := make(chan string, 2)
 	queue <- "one"
 	queue <- "two"
