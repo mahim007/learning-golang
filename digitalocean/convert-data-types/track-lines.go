@@ -38,4 +38,8 @@ func main() {
 	fmt.Println(b)
 
 	fmt.Println(c)
+
+	mp := map[string]string{"name": "ashraful", "age": "31"}
+	val, ok := mp["data"]
+	fmt.Println(val, ok)
 }
